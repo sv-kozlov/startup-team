@@ -66,7 +66,7 @@ This section applies to anyone sending changes to this repository, human or AI.
 
 ### Source of truth
 
-The plugin is **generated** from the upstream research repository (`sv-kozlov/sysanalitics`) by a sync script. **Do not edit role subagents, SKILL.md files, interaction maps, or sources directly in this repository** unless you understand that those edits will be overwritten on the next sync.
+The plugin is **generated** from an upstream research repository by a sync script. **Do not edit role subagents, SKILL.md files, interaction maps, or sources directly in this repository** unless you understand that those edits will be overwritten on the next sync.
 
 Files safe to edit here:
 - `README.md`, `README.ru.md`, `CLAUDE.md`, `AGENTS.md`, `GEMINI.md`
