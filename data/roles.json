@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "default_locale": "en",
+  "manager_role": "product-manager",
+  "roles": [
+    { "slug": "system-analyst",       "family": "analysis",   "owns": "Requirements, specifications, API/integration contracts, data contracts." },
+    { "slug": "business-analyst",     "family": "analysis",   "owns": "Business processes, business rules, impact analysis, acceptance criteria." },
+    { "slug": "product-analyst",      "family": "analysis",   "owns": "Product metrics, experiments, funnels, dashboards, hypothesis testing." },
+    { "slug": "product-owner",        "family": "product",    "owns": "Backlog, prioritization, scope, delivery-team coupling, acceptance." },
+    { "slug": "product-manager",      "family": "product",    "owns": "Strategy, discovery, roadmap, product outcomes, north-star metrics." },
+    { "slug": "project-manager",      "family": "delivery",   "owns": "Timelines, budget, resources, dependencies, risks, delivery comms." },
+    { "slug": "system-architect",     "family": "architecture","owns": "System architecture, components, integrations, NFR, architecture decisions." },
+    { "slug": "ui-ux-designer",       "family": "design",     "owns": "User flows, IA, wireframes, prototypes, UI, design system, handoff." },
+    { "slug": "tech-lead",            "family": "engineering","owns": "Engineering direction, code standards, technical mentoring, cross-cutting tech decisions." },
+    { "slug": "backend-go-developer", "family": "engineering","owns": "Go services, concurrency, error handling, data layer in Go." },
+    { "slug": "python-developer",     "family": "engineering","owns": "Python services, data/ML-adjacent backend, async Python." },
+    { "slug": "frontend-developer",   "family": "engineering","owns": "TypeScript/React UI, state, accessibility, web performance." },
+    { "slug": "mobile-developer",     "family": "engineering","owns": "iOS / Android / cross-platform apps, mobile UX, store delivery." },
+    { "slug": "fullstack-developer",  "family": "engineering","owns": "End-to-end feature delivery across the web stack." },
+    { "slug": "ml-engineer",          "family": "engineering","owns": "ML models, training pipelines, feature stores, inference services." },
+    { "slug": "qa-engineer",          "family": "quality",    "owns": "Test strategy, automation, defect triage, quality gates, performance testing." }
+  ]
+}

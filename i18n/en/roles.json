@@ -1,0 +1,21 @@
+{
+  "locale": "en",
+  "roles": {
+    "system-analyst":        { "name": "System Analyst",          "aliases": ["SA"] },
+    "business-analyst":      { "name": "Business Analyst",        "aliases": ["BA"] },
+    "product-analyst":       { "name": "Product Analyst",         "aliases": ["PA"] },
+    "product-owner":         { "name": "Product Owner",           "aliases": ["PO"] },
+    "product-manager":       { "name": "Product Manager",         "aliases": ["PM"] },
+    "project-manager":       { "name": "Project Manager",         "aliases": ["PjM"] },
+    "system-architect":      { "name": "System Architect",        "aliases": ["architect"] },
+    "ui-ux-designer":        { "name": "UI/UX Designer",          "aliases": ["designer", "UX"] },
+    "tech-lead":             { "name": "Tech Lead",               "aliases": ["TL"] },
+    "backend-go-developer":  { "name": "Go Backend Developer",    "aliases": ["go-dev", "gopher"] },
+    "python-developer":      { "name": "Python Developer",        "aliases": ["py-dev", "pythonista"] },
+    "frontend-developer":    { "name": "Frontend Developer",      "aliases": ["fe-dev"] },
+    "mobile-developer":      { "name": "Mobile Developer",        "aliases": ["mobile"] },
+    "fullstack-developer":   { "name": "Fullstack Developer",     "aliases": ["fs-dev"] },
+    "ml-engineer":           { "name": "ML Engineer",             "aliases": ["ML", "MLE"] },
+    "qa-engineer":           { "name": "QA Engineer",             "aliases": ["QA", "tester"] }
+  }
+}

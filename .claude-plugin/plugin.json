@@ -1,0 +1,9 @@
+{
+  "name": "startup-team",
+  "version": "0.1.0",
+  "description": "14-role product team as Claude Code subagents. Address by Russian role name, English slug, short alias, or slash command. Falls back to an LLM router for ambiguous requests.",
+  "author": "sysanalitics",
+  "homepage": "https://github.com/sysanalitics/startup-team",
+  "license": "MIT",
+  "keywords": ["team", "agents", "product", "engineering", "analytics", "qa"]
+}

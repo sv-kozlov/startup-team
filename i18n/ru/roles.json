@@ -1,0 +1,21 @@
+{
+  "locale": "ru",
+  "roles": {
+    "system-analyst":        { "name": "системный аналитик",       "aliases": ["SA"] },
+    "business-analyst":      { "name": "бизнес-аналитик",          "aliases": ["BA"] },
+    "product-analyst":       { "name": "продуктовый аналитик",     "aliases": ["PA"] },
+    "product-owner":         { "name": "владелец продукта",        "aliases": ["PO"] },
+    "product-manager":       { "name": "продакт-менеджер",         "aliases": ["PM"] },
+    "project-manager":       { "name": "менеджер проектов",        "aliases": ["PjM"] },
+    "system-architect":      { "name": "системный архитектор",     "aliases": ["архитектор"] },
+    "ui-ux-designer":        { "name": "UI/UX-дизайнер",           "aliases": ["дизайнер", "UX"] },
+    "tech-lead":             { "name": "техлид",                   "aliases": ["TL"] },
+    "backend-go-developer":  { "name": "Go backend-разработчик",   "aliases": ["go-dev", "гофер"] },
+    "python-developer":      { "name": "Python-разработчик",       "aliases": ["py-dev", "питонист"] },
+    "frontend-developer":    { "name": "frontend-разработчик",     "aliases": ["fe-dev", "фронтендер"] },
+    "mobile-developer":      { "name": "mobile-разработчик",       "aliases": ["mobile", "мобильщик"] },
+    "fullstack-developer":   { "name": "fullstack-разработчик",    "aliases": ["fs-dev"] },
+    "ml-engineer":           { "name": "ML-разработчик",           "aliases": ["ML", "MLE"] },
+    "qa-engineer":           { "name": "QA-инженер",               "aliases": ["QA", "тестировщик"] }
+  }
+}
