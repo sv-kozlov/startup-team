@@ -28,6 +28,6 @@ Initial public release of `startup-team`.
 
 ### Compatibility
 
-- Claude Code: install via `/plugin marketplace add sysanalitics/startup-team` + `/plugin install startup-team@startup-team`.
+- Claude Code: install via `/plugin marketplace add sv-kozlov/startup-team` + `/plugin install startup-team@startup-team`.
 - Codex CLI: `/plugins` → search `startup-team` → Install Plugin.
-- Gemini CLI: `gemini extensions install https://github.com/sysanalitics/startup-team`.
+- Gemini CLI: `gemini extensions install https://github.com/sv-kozlov/startup-team`.

@@ -58,5 +58,5 @@ gemini extensions update startup-team
 Reinstall from source:
 
 ```
-gemini extensions install https://github.com/sysanalitics/startup-team
+gemini extensions install https://github.com/sv-kozlov/startup-team
 ```

@@ -19,21 +19,21 @@
 Через marketplace:
 
 ```
-/plugin marketplace add sysanalitics/startup-team
+/plugin marketplace add sv-kozlov/startup-team
 /plugin install startup-team@startup-team
 ```
 
 Или напрямую из этого git-репозитория:
 
 ```
-/plugin marketplace add https://github.com/sysanalitics/startup-team
+/plugin marketplace add https://github.com/sv-kozlov/startup-team
 /plugin install startup-team
 ```
 
 Локальная разработка (склонировать репозиторий и указать на папку):
 
 ```
-git clone https://github.com/sysanalitics/startup-team
+git clone https://github.com/sv-kozlov/startup-team
 /plugin marketplace add ./startup-team
 /plugin install startup-team
 ```
@@ -64,7 +64,7 @@ Codex автоматически обнаружит те же папки `agents
 Установка как расширения Gemini прямо из этого репозитория:
 
 ```
-gemini extensions install https://github.com/sysanalitics/startup-team
+gemini extensions install https://github.com/sv-kozlov/startup-team
 ```
 
 Обновление:

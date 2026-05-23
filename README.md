@@ -19,21 +19,21 @@ Install commands differ per platform. Pick the one that matches your CLI.
 Marketplace:
 
 ```
-/plugin marketplace add sysanalitics/startup-team
+/plugin marketplace add sv-kozlov/startup-team
 /plugin install startup-team@startup-team
 ```
 
 Or from this git repository directly:
 
 ```
-/plugin marketplace add https://github.com/sysanalitics/startup-team
+/plugin marketplace add https://github.com/sv-kozlov/startup-team
 /plugin install startup-team
 ```
 
 Local development (clone the repo and point Claude Code at the folder):
 
 ```
-git clone https://github.com/sysanalitics/startup-team
+git clone https://github.com/sv-kozlov/startup-team
 /plugin marketplace add ./startup-team
 /plugin install startup-team
 ```
@@ -64,7 +64,7 @@ Codex auto-discovers the same `agents/`, `commands/`, and `skills/` folders that
 Install as a Gemini extension straight from this repository:
 
 ```
-gemini extensions install https://github.com/sysanalitics/startup-team
+gemini extensions install https://github.com/sv-kozlov/startup-team
 ```
 
 Update later with:
