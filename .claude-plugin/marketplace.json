@@ -1,0 +1,19 @@
+{
+  "name": "startup-team",
+  "description": "Marketplace for the startup-team plugin: a 16-role product/engineering team as subagents, with router, slash commands, and i18n.",
+  "owner": {
+    "name": "sysanalitics",
+    "url": "https://github.com/sysanalitics"
+  },
+  "plugins": [
+    {
+      "name": "startup-team",
+      "version": "0.1.0",
+      "description": "16-role product/engineering team as subagents. Works in Claude Code, Codex CLI, and Gemini CLI.",
+      "source": "./",
+      "homepage": "https://github.com/sysanalitics/startup-team",
+      "license": "MIT",
+      "keywords": ["team", "agents", "product", "engineering", "analytics", "qa", "subagents", "router", "i18n"]
+    }
+  ]
+}
