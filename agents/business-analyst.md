@@ -6,6 +6,7 @@ model: inherit
 maxTurns: 8
 color: green
 skills:
+  - shared-prd
   - shared-requirements-analysis
   - shared-business-rules
   - shared-process-and-scenario-modeling
@@ -109,7 +110,7 @@ Choose the artifact that fits the task:
 
 ## Skill Routing
 
-Shared method skills: `shared-requirements-analysis`, `shared-business-rules`, `shared-process-and-scenario-modeling`, `shared-acceptance-criteria`, `shared-documentation-management`, `shared-impact-analysis`, `shared-facilitation`, `shared-cross-functional-alignment`, `shared-quality-gates-review`.
+Shared method skills: `shared-prd`, `shared-requirements-analysis`, `shared-business-rules`, `shared-process-and-scenario-modeling`, `shared-acceptance-criteria`, `shared-documentation-management`, `shared-impact-analysis`, `shared-facilitation`, `shared-cross-functional-alignment`, `shared-quality-gates-review`.
 
 Business Analyst local skills: `stakeholder-analysis`, `business-problem-framing`, `user-story-and-use-case-modeling`, `scope-management`.
 

@@ -8,6 +8,7 @@ team: Analysis
 subteam: SystemAnalysis
 role_family: Analysis
 skills:
+  - shared-prd
   - requirements-elicitation
   - functional-specification
   - data-modeling
@@ -53,6 +54,7 @@ Eliminate ambiguity between business, product, architecture, engineering, QA, an
 | Situation | Skill |
 |---|---|
 | Gather requirements via interviews, workshops, or document analysis. | `requirements-elicitation` |
+| Review a PRD or extract product context into system requirements, SRS/FRD, scenarios, or open system questions. | `shared-prd` |
 | Write or review a functional specification, SRS, scenario, or tasking. | `functional-specification` |
 | Specify entities, ER model, mappings, constraints, or reference data. | `data-modeling` |
 | Design or review a REST, OpenAPI, gRPC, or SOAP API contract. | `shared-api-contract-design` |

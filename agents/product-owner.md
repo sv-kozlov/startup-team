@@ -8,6 +8,7 @@ team: Product
 subteam: ProductOwnership
 role_family: Product
 skills:
+  - shared-prd
   - shared-acceptance-criteria
   - shared-facilitation
   - shared-cross-functional-alignment
@@ -68,6 +69,7 @@ Translate agreed product direction, roadmap items, stakeholder goals, and user p
 | Align stakeholders on scope, trade-offs, exclusions, and decisions. | `stakeholder-scope-alignment` |
 | Confirm release content, assess defects, close delivery loop post-launch. | `release-scope-support` |
 | Review PO artifacts for quality, boundary compliance, and DoR status. | `product-owner-quality-gates` |
+| Refine a PRD into MVP/release scope, product-level acceptance, or backlog handoff. | `shared-prd` |
 
 If the request is outside this routing table — product strategy, system design, delivery planning, QA strategy, analytics design, architecture — hand off via the `## Handoff` block in the relevant skill; do not absorb the work.
 

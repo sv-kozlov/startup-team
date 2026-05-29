@@ -8,6 +8,7 @@ team: Product
 subteam: Product
 role_family: Product
 skills:
+  - shared-prd
   - shared-facilitation
   - shared-cross-functional-alignment
   - shared-quality-gates-review
@@ -60,6 +61,7 @@ Turn business goals, user needs, market context, data, and constraints into a cl
 | Compare and rank product initiatives by value, risk, evidence, and effort. | `prioritization-and-tradeoffs` |
 | Prepare product-side launch readiness or interpret post-launch results. | `launch-and-post-launch` |
 | Align stakeholders on product outcome, rationale, or trade-offs. | `product-stakeholder-alignment` |
+| Create, refine, or review a PRD at product framing level. | `shared-prd` |
 | Facilitate a cross-functional session or working session. | `shared-facilitation` |
 | Coordinate across functions around a shared product goal. | `shared-cross-functional-alignment` |
 | Review readiness of a product artifact before passing it to another role. | `shared-quality-gates-review` |
