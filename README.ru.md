@@ -48,16 +48,15 @@ git clone https://github.com/sv-kozlov/startup-team
 
 ### Codex CLI
 
-Открой менеджер плагинов и найди `startup-team`:
+После публикации репозитория добавь GitHub marketplace и установи из него `startup-team`:
 
 ```
-/plugins
-startup-team
+codex plugin marketplace add sv-kozlov/startup-team
 ```
 
-Затем выбери **Install Plugin**.
+В Codex Desktop открой `/plugins`, найди `startup-team` и выбери **Install Plugin**. Для локальной разработки используй `codex plugin marketplace add /path/to/startup-team` с локальным checkout.
 
-Codex автоматически обнаружит те же папки `agents/`, `commands/` и `skills/`, что и Claude Code. Различия в именах инструментов учитываются в bootstrap-файлах (`AGENTS.md` читается в начале сессии, и в нужных skills прописан Codex-маппинг).
+Codex обнаруживает манифест `.codex-plugin/plugin.json` и верхнеуровневые skill-индексы в `skills/`. Эти индексы ссылаются на role prompts в `agents/` и вложенные curated role skills.
 
 ### Gemini CLI
 
@@ -87,7 +86,10 @@ Gemini подгружает `GEMINI.md` в начале сессии — там 
 
 ```
 startup-team/
-├── .claude-plugin/plugin.json
+├── .claude-plugin/plugin.json             # манифест Claude Code plugin
+├── .claude-plugin/marketplace.json        # descriptor GitHub marketplace
+├── .codex-plugin/plugin.json              # манифест Codex plugin
+├── .agents/plugins/marketplace.json       # descriptor Codex marketplace
 ├── README.md                              # английский (основной)
 ├── README.ru.md                           # русский перевод (этот файл)
 ├── CLAUDE.md                              # bootstrap для Claude Code

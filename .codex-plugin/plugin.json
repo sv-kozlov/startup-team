@@ -1,0 +1,46 @@
+{
+  "name": "startup-team",
+  "version": "0.1.0",
+  "description": "16-role product/engineering team for Codex, Claude Code, and Gemini CLI, with role routing, localized aliases, and curated role skills.",
+  "author": {
+    "name": "sv-kozlov",
+    "url": "https://github.com/sv-kozlov"
+  },
+  "homepage": "https://github.com/sv-kozlov/startup-team",
+  "repository": "https://github.com/sv-kozlov/startup-team",
+  "license": "MIT",
+  "keywords": [
+    "team",
+    "agents",
+    "product",
+    "engineering",
+    "analytics",
+    "qa",
+    "subagents",
+    "router",
+    "i18n",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Startup Team",
+    "shortDescription": "16 product and engineering roles for Codex workflows",
+    "longDescription": "Use Startup Team to route work to product, analysis, architecture, engineering, design, delivery, and QA role playbooks with localized role aliases and curated role skills.",
+    "developerName": "sv-kozlov",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/sv-kozlov/startup-team",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Use /team to route this task to the right startup-team role.",
+      "Use /role backend-go-developer to handle a Go backend task."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

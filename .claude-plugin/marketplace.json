@@ -1,19 +1,23 @@
 {
   "name": "startup-team",
-  "description": "Marketplace for the startup-team plugin: a 16-role product/engineering team as subagents, with router, slash commands, and i18n.",
   "owner": {
     "name": "sv-kozlov",
     "url": "https://github.com/sv-kozlov"
   },
+  "metadata": {
+    "description": "Marketplace for the startup-team plugin: a 16-role product/engineering team with router, role skills, and i18n.",
+    "version": "0.1.0"
+  },
   "plugins": [
     {
       "name": "startup-team",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sv-kozlov/startup-team.git"
+      },
+      "description": "16-role product/engineering team for Claude Code, Codex, and Gemini CLI.",
       "version": "0.1.0",
-      "description": "16-role product/engineering team as subagents. Works in Claude Code, Codex CLI, and Gemini CLI.",
-      "source": "./",
-      "homepage": "https://github.com/sv-kozlov/startup-team",
-      "license": "MIT",
-      "keywords": ["team", "agents", "product", "engineering", "analytics", "qa", "subagents", "router", "i18n"]
+      "strict": true
     }
   ]
 }

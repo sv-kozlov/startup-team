@@ -48,16 +48,15 @@ After install you get 18 slash commands (`/team`, `/role`, one `/<slug>` per rol
 
 ### Codex CLI
 
-Open the plugin manager and search for `startup-team`:
+Add the GitHub marketplace after the repository is published, then install `startup-team` from it:
 
 ```
-/plugins
-startup-team
+codex plugin marketplace add sv-kozlov/startup-team
 ```
 
-Then choose **Install Plugin**.
+In Codex Desktop, open `/plugins`, find `startup-team`, and choose **Install Plugin**. For local development, use `codex plugin marketplace add /path/to/startup-team` against a local checkout.
 
-Codex auto-discovers the same `agents/`, `commands/`, and `skills/` folders that Claude Code uses. Tool-name differences are handled by the bootstrap files (`AGENTS.md` is read on session start, and skill files include a Codex tool mapping where relevant).
+Codex discovers the `.codex-plugin/plugin.json` manifest and the top-level skill indexes in `skills/`. Those indexes point back to the role prompts in `agents/` and the curated nested role skills.
 
 ### Gemini CLI
 
@@ -87,7 +86,10 @@ Gemini loads `GEMINI.md` on session start, which activates the role catalogue an
 
 ```
 startup-team/
-├── .claude-plugin/plugin.json
+├── .claude-plugin/plugin.json             # Claude Code plugin manifest
+├── .claude-plugin/marketplace.json        # GitHub marketplace descriptor
+├── .codex-plugin/plugin.json              # Codex plugin manifest
+├── .agents/plugins/marketplace.json       # Codex marketplace descriptor
 ├── README.md                              # this file (English)
 ├── README.ru.md                           # Russian translation
 ├── CLAUDE.md                              # Claude Code bootstrap

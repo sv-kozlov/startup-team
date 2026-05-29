@@ -66,11 +66,16 @@ This section applies to anyone sending changes to this repository, human or AI.
 
 ### Source of truth
 
-The plugin is **generated** from an upstream research repository by a sync script. **Do not edit role subagents, SKILL.md files, interaction maps, or sources directly in this repository** unless you understand that those edits will be overwritten on the next sync.
+The plugin is **generated** from an upstream research repository by a sync script. **Do not edit role subagents, nested generated role SKILL.md files, interaction maps, or sources directly in this repository** unless you understand that those edits will be overwritten on the next sync.
 
 Files safe to edit here:
 - `README.md`, `README.ru.md`, `CLAUDE.md`, `AGENTS.md`, `GEMINI.md`
 - `.claude-plugin/plugin.json`
+- `.claude-plugin/marketplace.json`
+- `.codex-plugin/plugin.json`
+- `.agents/plugins/marketplace.json`
+- `skills/<slug>/SKILL.md` role index files for Codex discovery
+- `skills/shared/SKILL.md` and `skills/startup-team/SKILL.md` Codex index files
 - `commands/*.md` (the resolver and the slash-command shortcuts)
 - `data/roles.json` (the role catalogue)
 - `i18n/<lang>/roles.json` (localized names + aliases)
