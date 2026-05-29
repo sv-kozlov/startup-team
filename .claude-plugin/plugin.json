@@ -1,6 +1,6 @@
 {
   "name": "startup-team",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "16-role product/engineering team as subagents. Works in Claude Code, Codex CLI, and Gemini CLI. Address by slug, localized name, alias, or slash command; falls back to an LLM router for ambiguous requests.",
   "author": {
     "name": "sv-kozlov",

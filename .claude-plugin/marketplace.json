@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Marketplace for the startup-team plugin: a 16-role product/engineering team with router, role skills, and i18n.",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "startup-team",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "16-role product/engineering team for Codex, Claude Code, and Gemini CLI, with role routing, localized aliases, and curated role skills.",
   "author": {
     "name": "sv-kozlov",
